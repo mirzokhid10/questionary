@@ -91,7 +91,7 @@ function Questionary() {
           <h1>
             You have answered {score} of {questions.length}
           </h1>
-          <div>{score > 3 ? "Well done:)" : "Try again:/"}</div>
+          <div>{score > 3 ? "Well donee:)" : "Try again:/"}</div>
 
           <button
             onClick={resetBtn}
